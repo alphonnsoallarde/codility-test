@@ -46,13 +46,6 @@ App.prototype.main = function () {
       console.log(element + ":" + this.value);
 
     } else if(element % 5 === 0 & element !== 0) {
-      if(element % 15 === 0) {
-        this.value = "'" + this.fuzz + this.buzz + "'";
-        console.log(element + ":" + this.value);
-        
-        continue;
-      }
-
       this.value = "'" + this.buzz + "'";
       console.log(element + ":" + this.value);
 
